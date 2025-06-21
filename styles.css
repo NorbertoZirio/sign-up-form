@@ -1,0 +1,112 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: my-font;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+#back-color{
+    
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(43, 40, 40);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#left{
+    width: 25%;
+    height: 100vh;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 15%;
+    margin-top: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo-image{
+    box-sizing: border-box;
+    margin: 3%;
+    padding: 0%;
+}
+
+#logo-text{
+    align-self: center;
+    font-family: my-font, sans-serif;
+    font-size: 60px;
+    color: aliceblue;
+
+}
+
+#photho-reference{
+    color: aliceblue;
+    align-self: center;
+    margin-top: auto;
+    font-size: 10px;
+    padding: 5px;
+}
+
+#image-link{
+    color: aliceblue;
+}
+
+#rigth{
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#top{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex: 1;
+    padding: 5%;
+    font-family: sans-serif, monospace;
+    font-size: 12px;
+    background-color:rgb(230, 230, 230);
+}
+
+#midle{
+    height: 25vh;
+    background-color: aliceblue;
+    
+}
+
+#bottom{
+    box-sizing: border-box;
+    background-color: rgb(230, 230, 230);
+    padding: 5%;
+    flex: 1;
+    font-family: sans-serif, monospace;
+}
+
+#submit-button{
+    background-color: #596D48;
+    color: aliceblue;
+    width: 25%;
+    height: 19%;
+    border-radius: 8px;
+    border-style: none;
+    font-weight: 700;
+}
+
+#log-in{
+    color: #596D48;
+    text-decoration: none;
+}
