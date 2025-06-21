@@ -64,7 +64,7 @@ body{
 }
 
 #rigth{
-    width: 45%;
+    width: 40%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -79,21 +79,25 @@ body{
     padding: 5%;
     font-family: sans-serif, monospace;
     font-size: 12px;
-    background-color:rgb(230, 230, 230);
+    background-color:#F9FAFB;
 }
 
 #midle{
     height: 25vh;
-    background-color: aliceblue;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
     
 }
 
 #bottom{
     box-sizing: border-box;
-    background-color: rgb(230, 230, 230);
+    background-color: #F9FAFB;
     padding: 5%;
     flex: 1;
     font-family: sans-serif, monospace;
+    z-index: 0;
 }
 
 #submit-button{
