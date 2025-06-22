@@ -12,7 +12,7 @@ body{
     
     margin: 0%;
     padding: 0%;
-    background-color: rgb(43, 40, 40);
+    background-color: rgb(17, 16, 16);
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -76,7 +76,7 @@ body{
     flex-direction: column;
     justify-content: end;
     flex: 1;
-    padding: 5%;
+    padding-left:  5%;
     font-family: sans-serif, monospace;
     font-size: 12px;
     background-color:#F9FAFB;
@@ -88,7 +88,61 @@ body{
     box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 1;
+    padding: 5%;
     
+    
+}
+
+#midle-text{
+    font-family: sans-serif, monospace;
+    font-weight: 700;
+    margin: 0%;
+    padding: 0%;
+}
+
+.form{
+    display: flex;
+}
+
+.form-rigth{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label{
+    font-size: 10px;
+    font-weight: 100;
+    color: rgb(48, 46, 46);
+    margin-top: 8px;
+}
+
+.input-form{
+    
+    border-color: rgb(221, 221, 221);
+    outline: none;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    transition: border-color 0.3s ease;
+    height: 20px;
+    
+}
+
+#password, #confirm-password{
+    border-color: red;
+}
+
+.input-form:focus{
+    border-color: blueviolet;
+    outline: none;
+    box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
+
 }
 
 #bottom{
@@ -113,4 +167,5 @@ body{
 #log-in{
     color: #596D48;
     text-decoration: none;
+    font-weight: 700;
 }
