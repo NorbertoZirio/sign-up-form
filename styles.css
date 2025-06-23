@@ -131,6 +131,7 @@ body{
     border-style: solid;
     transition: border-color 0.3s ease;
     height: 20px;
+    flex: 1;
     
 }
 
